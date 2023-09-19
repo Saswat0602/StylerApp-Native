@@ -70,46 +70,6 @@ export default function FancyCards() {
           <Text style={styles.footer}>Near Here</Text>
         </View>
       </View>
-      <View style={[styles.card, styles.cardEle]}>
-        <Image
-          source={{
-            uri: 'https://images.unsplash.com/photo-1683009427692-8a28348b0965?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-          }}
-          style={styles.img}
-        />
-        <View style={styles.cardBody}>
-          <Text style={styles.titles}>Canyon ......</Text>
-          <Text style={styles.label}>Saudi</Text>
-          <Text style={styles.desc}>
-            {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            aut inventore pariatur iure ab. Sint ipsum dignissimos esse. Maxime
-            pariatur consequatur animi ipsa. Omnis earum eveniet nobis ea quos
-            odio.
-          </Text>
-          <Text style={styles.footer}>Near Here</Text>
-        </View>
-      </View>
-      <View style={[styles.card, styles.cardEle]}>
-        <Image
-          source={{
-            uri: 'https://images.unsplash.com/photo-1683009427692-8a28348b0965?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-          }}
-          style={styles.img}
-        />
-        <View style={styles.cardBody}>
-          <Text style={styles.titles}>Canyon ......</Text>
-          <Text style={styles.label}>Saudi</Text>
-          <Text style={styles.desc}>
-            {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            aut inventore pariatur iure ab. Sint ipsum dignissimos esse. Maxime
-            pariatur consequatur animi ipsa. Omnis earum eveniet nobis ea quos
-            odio.
-          </Text>
-          <Text style={styles.footer}>Near Here</Text>
-        </View>
-      </View>
     </View>
   );
 }
