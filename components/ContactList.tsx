@@ -10,8 +10,7 @@ export default function ContactList() {
       uid: 1,
       name: 'Saswat Ranjan',
       status: 'Just an extra ordinary Man',
-      imageUrl:
-        'https://avatars.githubusercontent.com/u/103241770?s=400&u=ee3e03b8ebb0aae2046f0202cd4c2c67c648d082&v=4',
+      imageUrl: 'https://avatars.githubusercontent.com/u/103241770?v=4',
     },
     {
       uid: 2,
@@ -23,13 +22,15 @@ export default function ContactList() {
       uid: 3,
       name: 'Miss HaraPriya',
       status: 'A phenomenal character',
-      imageUrl: 'https://avatars.githubusercontent.com/u/25549847?v=4',
+      imageUrl:
+        'https://images.unsplash.com/photo-1683009427692-8a28348b0965?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
     },
     {
       uid: 4,
       name: 'Sabita .......',
-      status: 'Building secure Digital banks',
-      imageUrl: 'https://avatars.githubusercontent.com/u/25549847?v=4',
+      status: 'Ek Chota sa Ullu ',
+      imageUrl:
+        'https://images.unsplash.com/photo-1683009427692-8a28348b0965?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
     },
   ];
 
@@ -65,28 +66,28 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 16,
     marginBottom: 4,
-  },
-  userCard: {
+},
+userCard: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 10,
     backgroundColor: '#85d6c7',
-    padding: 10,
-    borderRadius: 10,
+    marginBottom: 6,
+    padding: 8,
+    borderRadius: 15,
   },
   userImage: {
     width: 60,
     height: 60,
-    borderRadius: 30,
+    borderRadius: 60 / 2,
     marginRight: 14,
   },
   userName: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: '600',
     color: '#FFF',
   },
   userStatus: {
-    fontSize: 12,
+    fontSize: 14,
   },
 });
