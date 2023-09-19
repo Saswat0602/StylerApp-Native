@@ -116,10 +116,10 @@ export default function FancyCards() {
 
 const styles = StyleSheet.create({
   heading: {
-    fontSize: 24, // Increased font size
+    fontSize: 24, 
     fontWeight: 'bold',
     paddingHorizontal: 8,
-    color: 'blue', // Changed font color to blue
+    color: 'blue', 
   },
   card: {
     width: 350,
@@ -149,21 +149,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   titles: {
-    // color: 'black',
-    fontSize: 26, // Increased font size
+    fontSize: 26, 
     fontWeight: 'bold',
     marginBottom: 6,
-    color: 'green', // Changed font color to green
+    color: 'green', 
   },
   label: {
     color: 'black',
-    fontSize: 18, // Increased font size
+    fontSize: 18, 
   },
   desc: {
-    fontSize: 16, // Increased font size
+    fontSize: 16,
     marginBottom: 12,
     flexShrink: 1,
-    color: 'black', // Changed font color to gray
+    color: 'black', 
   },
   footer: {
     color: 'black',
